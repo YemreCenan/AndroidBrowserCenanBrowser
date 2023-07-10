@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lütfen bir tema seçiniz."
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/blueColor"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/sblue"
+                android:layout_margin="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/greenColor"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/sgreen"
+                android:layout_margin="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/yellowColor"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/yellow"
+                android:layout_margin="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/redColor"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/sred"
+                android:layout_margin="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/orangeColor"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/sorange"
+                android:layout_margin="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/bBlueColor"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/blue"
+                android:layout_margin="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
